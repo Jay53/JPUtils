@@ -105,7 +105,7 @@ public class JPUtils {
         prefEditor.commit();
     }
 
-    public static String printKeyHash(Activity context) {
+    public static String getKeyHash(Activity context) {
         PackageInfo packageInfo;
         String key = null;
         try {
